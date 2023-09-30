@@ -1,0 +1,34 @@
+body{
+    margin: 40px;
+    font-size: 170%;
+}
+.main{
+    display: grid;
+    grid-template-columns:1fr; /*Sirve para definir columnas con diferentes anchos*/
+    grid-template-rows: 1fr ; /*Sirve para definir filas con diferentes alturas*/
+    grid-gap: 10px;
+
+}
+.box{
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+.header{
+    grid-column: 1/6;
+    text-align: center;
+    padding: 40px;
+    
+}
+.articule{
+    grid-column: 1/5;
+}
+.aside{
+    grid-column: 5/6;
+    grid-row: 2/5;
+    padding:50px ; 
+}
+.footer{
+    grid-column: 1/6;
+}
